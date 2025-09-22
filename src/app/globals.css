@@ -3,7 +3,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --magenta: #d81b60; /* TODO: replace with exact shade from logo */
+  --magenta: #b42b63; /* sampled from logo heart */
 }
 
 @theme inline {

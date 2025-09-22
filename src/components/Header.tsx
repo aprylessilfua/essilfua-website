@@ -1,12 +1,13 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
 	return (
 		<header className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-black/5">
 			<div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
 				<Link href="/" className="flex items-center gap-2">
-					<div className="relative h-8 w-8 rounded-full bg-magenta" />
+					<Image src="/logo.png" alt="Essilfua" width={36} height={36} className="rounded" />
 					<span className="font-semibold tracking-wide">ESSILFUA</span>
 				</Link>
 				<nav className="flex items-center gap-6 text-sm">

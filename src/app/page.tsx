@@ -9,7 +9,7 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-4 py-24 grid md:grid-cols-2 gap-10 items-center">
           <div>
             <p className="uppercase tracking-widest text-sm text-black/60">• ɛh - sil - fu - waa •</p>
-            <h1 className="text-4xl md:text-5xl font-semibold leading-tight mt-2">every fashion girl's dream</h1>
+            <h1 className="text-4xl md:text-5xl font-semibold leading-tight mt-2">every fashion girl&apos;s dream</h1>
             <p className="text-black/70 mt-4 max-w-prose">Modest fashion with a modern twist. Ready-to-wear pieces and bespoke couture crafted for dignity, creativity, and purpose.</p>
             <div className="mt-8 flex gap-3">
               <Link href="/shop" className="bg-black text-white px-5 py-3 rounded">Shop RTW</Link>
